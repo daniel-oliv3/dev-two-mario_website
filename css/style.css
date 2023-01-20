@@ -1,10 +1,37 @@
+/* ======= Reset ======= */
+* {
+    margin: 0;
+    padding: 0; /*espaçamento interno */
+    box-sizing: border-box;
+}
 
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* ======= Video/Fundo ======= */
 
+
+
+
 /* ======= Header section ======= */
+.cabecalho {
+    
+}
 
 
+
+/* ======= Main section ======= */
 
 
 
