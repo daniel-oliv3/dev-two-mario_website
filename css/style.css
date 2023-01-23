@@ -29,6 +29,8 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden; /*transbordar, esconder*/
+    display: flex;
+    justify-content: center;
 }
 
 .fundo-video .video {
@@ -121,17 +123,16 @@ body {
 
 /* ======= MODAL ======= */
 .modal {
-    /*display: none;*/
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
     background-color: rgba(52, 52, 50, 0.749);
+    visibility: hidden;
 }
 
 .conteudo-modal {
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,6 +157,13 @@ body {
     width: 640px;
     height: 360px;
 }
+
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 
 
