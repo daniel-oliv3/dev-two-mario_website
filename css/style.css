@@ -14,7 +14,7 @@ a {
 }
 
 
-/* Body */
+/* ======= Body ======= */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -116,6 +116,45 @@ body {
 
 .container .botao-trailer:hover {
     transform: scale(1.1);
+}
+
+
+/* ======= MODAL ======= */
+.modal {
+    /*display: none;*/
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+}
+
+.conteudo-modal {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #ffffff;
+    color: #f03a17;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
 }
 
 
