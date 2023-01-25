@@ -4,10 +4,21 @@
 const botaoTrailer = document.querySelector('.botao-trailer');
 //console.log(botaoTrailer);
 
+//Passo 3 - pegar o elemento da modal usando o js
+const modal = document.querySelector('.modal');
+//console.log("Mostrar o objeto da modal: ", modal);
+
 //Passo 2 - idendificar quando o usuario clicar no botão
 botaoTrailer.addEventListener("click", () => {
-    console.log("aqui");
+    //console.log("aqui");
+    //Passo 4 - abrir a modal na tela
+    //console.log(modal.classList);
+    modal.classList.add("aberto");
 });
+
+
+
+
 
 
 
