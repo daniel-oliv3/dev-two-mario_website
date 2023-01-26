@@ -26,10 +26,13 @@ const botaoFecharModal = document.querySelector('.fechar-modal');
 botaoFecharModal.addEventListener("click", () => {
     //Passo 3 - fechar a modal
     modal.classList.remove("aberto");
+    video.setAttribute("src", "");
 });
 
 
-
+/* Parar o video da modal quando apertar o botão X*/
+const linkDoVideo =  "https://www.youtube.com/embed/Cb4WV4aXBpk";
+const video = document.getElementById("video");
 
 
 
