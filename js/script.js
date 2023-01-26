@@ -1,4 +1,4 @@
-/*Btn modal*/
+/* ======= Btn modal ======= */
 
 //Passo 1 - pegar o elemento que representa o botão na tela usando o js
 const botaoTrailer = document.querySelector('.botao-trailer');
@@ -11,9 +11,21 @@ const modal = document.querySelector('.modal');
 //Passo 2 - idendificar quando o usuario clicar no botão
 botaoTrailer.addEventListener("click", () => {
     //console.log("aqui");
-    //Passo 4 - abrir a modal na tela
+    /*Passo 4 - abrir a modal na tela*/
     //console.log(modal.classList);
-    modal.classList.add("aberto");
+    modal.classList.add("aberto"); 
+});
+
+
+/* ======= Fechar btn modal ======= */
+
+//Passo 1 - pegar o elemento de fechar modal usando o js
+const botaoFecharModal = document.querySelector('.fechar-modal');
+
+//Passo 2 - idendificar quando o usuario clicar no X
+botaoFecharModal.addEventListener("click", () => {
+    //Passo 3 - fechar a modal
+    modal.classList.remove("aberto");
 });
 
 
@@ -22,21 +34,7 @@ botaoTrailer.addEventListener("click", () => {
 
 
 
-
-
-
-
-
-
-
-
-
-/*Fechar btn modal*/
-
-
-
-
-
+/* ================================================== */
 
 //console.log('Mostrar o document: ', document);
 
